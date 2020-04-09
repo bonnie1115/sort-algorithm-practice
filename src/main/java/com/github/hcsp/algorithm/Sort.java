@@ -6,10 +6,12 @@ public class Sort {
     public static void main(String[] args) {
         int[] array1 = new int[]{4, 8, 1, 7, 4, 0, 5, 8, 7, 5, 9, 6, 4, 0};
         int[] array2 = new int[]{4, 8, 1, 7, 4, 0, 5, 8, 7, 5, 9, 6, 4, 0};
-        sort1(array1);
-        sort2(array2);
+//        sort1(array1);
+//        sort2(array2);
+        sort4(array2);
 
-        System.out.println(Arrays.toString(array1));
+//        System.out.println(Arrays.toString(array1));
+//        System.out.println(Arrays.toString(array2));
         System.out.println(Arrays.toString(array2));
     }
 
@@ -120,7 +122,7 @@ public class Sort {
         }
 
         for (int i = M; i <= R; i++) {
-            rightArray[i - M] = rightArray[i];
+            rightArray[i - M] = array[i];
         }
 
 
